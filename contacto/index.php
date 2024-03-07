@@ -21,12 +21,13 @@
       <nav class="navbar navbar-expand-lg-end" style="background-color:#c9c8c3">
           <a class="navbar-brand" href="#">
             <img
-            class="logo"
+            id="logo"
             src="imagen/logo.png"
             alt="BootstraPro Prp"
             
-            width="210"
+            width="150"
             height=" 90"
+            
             />
           </a>
 
@@ -138,60 +139,6 @@
     </section>
 
     
-    <!--carrusel-->
-    <section>
-      <div class="container mt-5 mb-5">
-        <div class="carrusel">
-          <div class="stripe-container">
-            <div class="card">
-              <div
-                title="Bathroom"
-                class="cover cover-small"
-                style="background-image:url(imagen/carrusel/bano.jpg);"></div>
-
-              <div class="card-body">
-                <h5 class="card-title">Full renovation Bathroom</h5>
-                <span class="badge text-bg-info">Project 2023-Oct</span>
-              </div>
-            </div>
-            <div class="card">
-              <div
-                title="Basement"
-                class="cover cover-small"
-                style="background-image:url(imagen/carrusel/basement.jpg);"></div>
-
-              <div class="card-body">
-                <h5 class="card-title">Full renovation Basement</h5>
-                <span class="badge text-bg-info">Project 2023-Dec</span>
-              </div>
-            </div>
-            <div class="card">
-              <div
-                title="Demolition"
-                class="cover cover-small"
-                style="background-image:url(imagen/carrusel/demolicion.jpg);"></div>
-
-              <div class="card-body">
-                <h5 class="card-title">Demolition</h5>
-                <span class="badge text-bg-info">Project 2024-Jan</span>
-              </div>
-            </div>
-            <div class="card">
-              <div
-                title="worker"
-                class="cover cover-small"
-                style="background-image:url(imagen/carrusel/structure.jpg);"></div>
-
-              <div class="card-body">
-                <h5 class="card-title">Development</h5>
-                <span class="badge text-bg-info">Project 2024-Jan</span>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    
     
     <!--map-->
     <section>
@@ -214,11 +161,14 @@
         <div class="container mt-5 mb-5">
           <div class="row">
             <div class="col-lg-4">
-              <h3>Enlaces</h3>
-                <ul type="none">
-                  <li><a class="enlace" style="text-decoration: none" href="index.php">Home</a></li>
-                  <li><a class="enlace" style="text-decoration: none" href="about.html">About Us</a></li>
-                  <li><a class="enlace" style="text-decoration: none" href="form.php">Contact</a></li>
+              <h3>Links</h3>
+                <ul type="none" class="enlace-footer">
+                  <li></li><a class="enlace" style="text-decoration: none" href="index.php">Home</a></li>
+                  <li></li><a class="enlace" style="text-decoration: none" href="about.html">About Us</a></li>
+                  <li></li><a class="enlace" style="text-decoration: none" href="porfolio.html">Porfolio</a></li>
+                  <li></li><a class="enlace" style="text-decoration: none" href="form.php">Contact</a></li>
+                  
+                  
                 </ul>
             </div>
             <div class="col-lg-4">
@@ -227,8 +177,8 @@
               <p>Phone: 416-970-8111</p>
             </div>
             <div class="col-lg-4">
-              <h3>Derechos de autor</h3>
-              <p>(c) 2024 Mi Sitio Web. Todos los derechos reservados.</p>
+              <h3>Privacy Policy </h3>
+              <p>Website Designed by Vanesa Friguglietti</p>
             </div>
           </div>
         </div>

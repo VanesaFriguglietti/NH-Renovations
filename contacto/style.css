@@ -1,13 +1,15 @@
 body {
   margin: 0em;
 }
-.logo{
-  opacity: 0.8;
-  box-shadow: 0px 0px 25px #6b6a69;
- 
-  border-radius: 10px;
+#logo{
+
+filter: drop-shadow(0 0 10px rgba(0, 0, 0, 0.0));
+padding:  0;
+margin:   0;
+
 
 }
+
 
 
 .navbar-brand{
@@ -196,8 +198,8 @@ li {
     --bs-nav-link-padding-y: 0.5rem;
     --bs-nav-link-font-weight: ;
     --bs-nav-link-color: #495057;
-    --bs-nav-link-hover-color: #9ebae8;
-    --bs-nav-link-disabled-color: var(--bs-secondary-color);
+    --bs-nav-link-hover-color: #ed4f0a;
+    --bs-nav-link-disabled-color: #495057;
     display: flex;
     flex-wrap: wrap;
     padding-left: 0;
@@ -206,11 +208,12 @@ li {
 }
 user agent stylesheet
 ul {
+    
     list-style-type: disc;
 }
-.navbar {
+.navbar .row{
     --bs-navbar-padding-x: 0;
-    --bs-navbar-padding-y: 0.5rem;
+    --bs-navbar-padding-y: 0;
     --bs-navbar-color: rgba(var(--bs-emphasis-color-rgb), 0.65);
     --bs-navbar-hover-color: rgba(var(--bs-emphasis-color-rgb), 0.8);
     --bs-navbar-disabled-color: rgba(var(--bs-emphasis-color-rgb), 0.3);
@@ -234,7 +237,7 @@ ul {
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
-    padding: var(--bs-navbar-padding-y) var(--bs-navbar-padding-x);
+    
 }
 
   line-height: 1.4;
@@ -242,25 +245,46 @@ ul {
 
 
 /*estilos al enlace del footer*/
+
+
+
+
+
+
 .enlace {
 
   outline: none;
   text-decoration: none;
-  padding: 2px 1px 0;
+
 }
 
 .enlace:link {
   color: #495057;
+  
 }
 
 
 
 .enlace:hover {
   border-bottom: 1px solid;
-  color: #9ebae8;
+  color: #ed4f0a;
 }
 
 .enlace:active {
-  background: #265301;
-  color:#9ebae8;
+  background: #495057;
+  color:#495057;
+
+
+
+
+
+#about {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  object-position: bottom;
+
+
 }
+
+
